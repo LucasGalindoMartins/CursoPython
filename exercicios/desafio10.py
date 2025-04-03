@@ -1,3 +1,3 @@
 mon = float(input('Quanto dinheiro você tem na carteira? '))
 dol = mon / 5.60 
-print(f'Você pode comprar ${dol} dólares')
+print(f'Você pode comprar ${dol:.2f} dólares')
