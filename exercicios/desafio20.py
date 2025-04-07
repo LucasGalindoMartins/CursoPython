@@ -1,9 +1,11 @@
-import random
+from random import shuffle
 
-names = ['Maria', 'João', 'Lucas', 'Pedro']
+n1 = input('Primeiro aluno: ')
+n2 = input('Segundo aluno: ')
+n3 = input('Terceiro aluno: ')
+n4 = input('Quarto aluno: ')
 
-random.shuffle(names)
-
-print('Ordem de apresentação:')
-for i, nome in enumerate(names, start=1):
-    print(f'{i}. {nome}')
+lista = [n1, n2, n3, n4]
+shuffle(lista)
+print('A ordem de apresentação será ')
+print(lista)
