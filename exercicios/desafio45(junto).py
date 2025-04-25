@@ -16,8 +16,8 @@ sleep(2)
 print('PO')
 sleep(1)
 
-print(f'Computador jogou {comp}')
-print(f'Jodador jogou {jogador}')
+print(f'Computador jogou {itens[comp]}')
+print(f'Jodador jogou {itens[jogador]}')
 
 if comp == 0:
     if jogador == 0:
