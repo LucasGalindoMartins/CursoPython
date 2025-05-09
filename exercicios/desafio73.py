@@ -1,0 +1,12 @@
+times = ('Corinthians', 'Bragantino', 'Flamengo', 'Cruzeiro', 'Fluminense', 'Bahia', 'Ceará','Internacional', 'Atlético-MG', 'Botafogo', 'Grêmio', 'Vasco da Gama', 'Juventude', 'Mirassol', 'Fortaleza', 'Vitória', 'Sport Recife', 'Santos', 'São Paulo', 'Palmeiras')
+
+print('-='*30)
+print(f'Lista de times do Brasileirão: {times}')
+print('-='*30)
+print(f'Os 5 primeiros são {times[0:5]}')
+print('-='*30)
+print(f'Os 4 últimos são {times[-4:]}')
+print('-='*30)
+print(f'Times em ordem alfabética: {sorted(times)}')
+print('-='*30)
+print(f'O Corinthians está na {times.index('Corinthians')+1} posição')
