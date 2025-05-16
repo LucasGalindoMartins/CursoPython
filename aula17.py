@@ -1,9 +1,9 @@
-# num = [2, 5, 9, 1]
+num = [2, 5, 9, 1]
 # num[2] = 3
 # num.append(7) #Adiciona no final
-# num.insert(2, 0) #Substitui
+num.insert(2, 0) #Substitui
  
-# print(num) 
+print(num) 
 
 # num.sort() #Ordena crescente
 # print(num)
@@ -32,10 +32,10 @@
 #     print(f'Na posição {pos} encontrei o valor {v}!')
 # print('Cheguei ao final da lista.')
 
-a = [2, 3, 4, 7]
-b = a #Cria uma ligação
-b = a[:] #Cria uma cópia
-b[2] = 8
+# a = [2, 3, 4, 7]
+# b = a #Cria uma ligação
+# b = a[:] #Cria uma cópia
+# b[2] = 8
 
-print(f'Lista a: {a}')
-print(f'Lista b: {b}')
+# print(f'Lista a: {a}')
+# print(f'Lista b: {b}')
