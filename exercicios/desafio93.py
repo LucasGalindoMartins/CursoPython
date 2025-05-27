@@ -1,8 +1,8 @@
 statis = {}
-statis['nome'] = input('Nome do Jogador: ')
-partidas = int(input(f'Quantas partidas {statis['nome']} jogou? '))
 gols = []
 s = 0
+statis['nome'] = input('Nome do Jogador: ')
+partidas = int(input(f'Quantas partidas {statis['nome']} jogou? '))
 
 for p in range(0, partidas):
     gols.append(int(input(f'      Quantos gols na partida {p+1}? ')))
