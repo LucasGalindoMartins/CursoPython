@@ -9,13 +9,13 @@ def contador(i, f, p):
         print(f'Contagam de {i} até {f} de {p} em {p}')
         for c in range(i, f+1, p):
             print(c, end=' ', flush=True)
-            # sleep(0.5)
+            sleep(0.5)
         print('FIM!!')
     else:
         print(f'Contagam de {i} até {f} de {p} em {p}')
         for c in range(i, f-1, -p):
             print(c, end=' ', flush=True)
-            # sleep(0.5)
+            sleep(0.5)
         print('FIM!!')
         
 
